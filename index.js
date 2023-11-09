@@ -76,14 +76,14 @@ function getFilesForArchitecture(architecture) {
       { fileName: "web", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/web" },
       { fileName: "swith", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/swith" },
       { fileName: "server", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/server" },
-      { fileName: "start.sh", fileUrl: "https://github.com/eoovve/test/releases/download/6-amd/start.sh" },
+      { fileName: "start.sh", fileUrl: "https://github.com/chengdada123/Argo-for-Saclingo/releases/download/V1.0/start.sh" },
     ];
   } else if (architecture === 'amd') {
     return [
       { fileName: "web", fileUrl: "https://github.com/eoovve/test/raw/main/web" },
       { fileName: "swith", fileUrl: "https://github.com/eoovve/test/raw/main/swith" },
       { fileName: "server", fileUrl: "https://github.com/eoovve/test/raw/main/server" },
-      { fileName: "start.sh", fileUrl: "https://github.com/huanthree/Argo-for-Saclingo/releases/download/111/start.sh" },
+      { fileName: "start.sh", fileUrl: "https://github.com/chengdada123/Argo-for-Saclingo/releases/download/V1.0/start.sh" },
     ];
   }
   return [];
